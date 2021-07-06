@@ -183,7 +183,18 @@
         <vertices id="aws_FloorB_01_collision-VERTEX">
           <input semantic="POSITION" source="#aws_FloorB_01_collision-POSITION"/>
         </vertices>
-        <polylist count="18" material="Material #25"><input semantic="VERTEX" offset="0" source="#aws_FloorB_01_collision-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_FloorB_01_collision-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_FloorB_01_collision-UV0"/><vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount><p> 0 0 0 9 1 9 3 2 3 2 3 2 9 4 9 6 5 6 7 6 7 3 7 3 7 8 7 6 9 6 1 10 1 4 11 4 3 12 3 7 13 7 8 14 8 5 15 5 13 16 3 19 17 9 10 18 0 12 19 2 17 20 7 16 21 6 19 22 9 13 23 3 11 24 1 16 25 6 17 26 7 14 27 4 18 28 8 17 29 7 13 30 3 15 31 5 9 32 9 0 33 0 10 34 0 19 35 9 2 36 2 3 37 3 13 38 3 12 39 2 0 40 0 2 41 2 12 42 2 10 43 0 6 44 6 9 45 9 19 46 9 16 47 6 1 48 1 6 49 6 16 50 6 11 51 1 4 52 4 1 53 1 11 54 1 14 55 4 7 56 7 4 57 4 14 58 4 17 59 7 8 60 8 7 61 7 17 62 7 18 63 8 5 64 5 8 65 8 18 66 8 15 67 5 3 68 3 5 69 5 15 70 5 13 71 3</p></polylist>
+        <polylist count="18" material="Material #25">
+          <input semantic="VERTEX" offset="0" source="#aws_FloorB_01_collision-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#aws_FloorB_01_collision-Normal0"/>
+<!--          <input semantic="TEXCOORD" offset="2" set="0" source="#aws_FloorB_01_collision-UV0"/>-->
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4</vcount>
+          <p>0 0 0 9 1 9 3 2 3 2 3 2 9 4 9 6 5 6 7 6 7 3 7 3 7 8 7 6 9 6 1 10 1 4 11 4 3 12 3 7 13 7 8 14 8 5 15 5 13 16
+            3 19 17 9 10 18 0 12 19 2 17 20 7 16 21 6 19 22 9 13 23 3 11 24 1 16 25 6 17 26 7 14 27 4 18 28 8 17 29 7 13
+            30 3 15 31 5 9 32 9 0 33 0 10 34 0 19 35 9 2 36 2 3 37 3 13 38 3 12 39 2 0 40 0 2 41 2 12 42 2 10 43 0 6 44
+            6 9 45 9 19 46 9 16 47 6 1 48 1 6 49 6 16 50 6 11 51 1 4 52 4 1 53 1 11 54 1 14 55 4 7 56 7 4 57 4 14 58 4
+            17 59 7 8 60 8 7 61 7 17 62 7 18 63 8 5 64 5 8 65 8 18 66 8 15 67 5 3 68 3 5 69 5 15 70 5 13 71 3
+          </p>
+        </polylist>
       </mesh>
     </geometry>
   </library_geometries>

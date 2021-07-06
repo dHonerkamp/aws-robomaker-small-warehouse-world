@@ -173,14 +173,47 @@
         <vertices id="aws_NightStand_01_collision-VERTEX">
           <input semantic="POSITION" source="#aws_NightStand_01_collision-POSITION"/>
         </vertices>
-        <polylist count="12" material="_10 - Default"><input semantic="VERTEX" offset="0" source="#aws_NightStand_01_collision-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_NightStand_01_collision-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_NightStand_01_collision-UV0"/><vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount><p> 1 0 1 0 1 0 3 2 3 0 3 0 2 4 2 3 5 3 7 6 7 6 7 6 4 8 4 7 9 7 4 10 4 5 11 5 5 12 11 4 13 10 0 14 8 5 15 11 0 16 8 1 17 9 7 18 15 5 19 14 1 20 12 7 21 15 1 22 12 3 23 13 6 24 19 7 25 18 3 26 16 6 27 19 3 28 16 2 29 17 4 30 23 6 31 22 2 32 20 4 33 23 2 34 20 0 35 21</p></polylist>
+        <polylist count="12">
+          <input semantic="VERTEX" offset="0" source="#aws_NightStand_01_collision-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#aws_NightStand_01_collision-Normal0"/>
+<!--          <input semantic="TEXCOORD" offset="2" set="0" source="#aws_NightStand_01_collision-UV0"/>-->
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3</vcount>
+          <p>1 0 1 0 1 0 3 2 3 0 3 0 2 4 2 3 5 3 7 6 7 6 7 6 4 8 4 7 9 7 4 10 4 5 11 5 5 12 11 4 13 10 0 14 8 5 15 11 0
+            16 8 1 17 9 7 18 15 5 19 14 1 20 12 7 21 15 1 22 12 3 23 13 6 24 19 7 25 18 3 26 16 6 27 19 3 28 16 2 29 17
+            4 30 23 6 31 22 2 32 20 4 33 23 2 34 20 0 35 21
+          </p>
+        </polylist>
       </mesh>
     </geometry>
   </library_geometries>
   <library_visual_scenes>
     <visual_scene id="aws_NightStand_01_collision" name="aws_NightStand_01_collision">
-      <node name="aws_NightStand_01_collision" id="aws_NightStand_01_collision" sid="aws_NightStand_01_collision"><matrix sid="matrix">0.118291 0.000000 0.000000 0.000000 0.000000 -0.118291 0.000000 0.000000 0.000000 -0.000000 -0.118291 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_NightStand_01_collision-lib"><bind_material><technique_common><instance_material symbol="_10 - Default" target="#_10 - Default"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
-      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+      <node name="aws_NightStand_01_collision" id="aws_NightStand_01_collision" sid="aws_NightStand_01_collision">
+        <matrix sid="matrix">0.118291 0.000000 0.000000 0.000000 0.000000 -0.118291 0.000000 0.000000 0.000000 -0.000000
+          -0.118291 0.000000 0.000000 0.000000 0.000000 1.000000
+        </matrix>
+        <instance_geometry url="#aws_NightStand_01_collision-lib">
+<!--          <bind_material>-->
+<!--            <technique_common>-->
+<!--              <instance_material symbol="_10 - Default" target="#_10 - Default"/>-->
+<!--            </technique_common>-->
+<!--          </bind_material>-->
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
     </visual_scene>
   </library_visual_scenes>
   <scene>
